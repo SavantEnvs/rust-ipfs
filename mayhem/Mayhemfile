@@ -1,0 +1,9 @@
+# Mayhemfile for the decode-ipld target (name preserved from the original integration so
+# the fork's Mayhem run history stays attached).
+# origin: https://app.mayhem.security/mayhemheroes/rust-ipfs/decode-ipld/2
+project: savantenvs/rust-ipfs
+target: decode-ipld-buggy-mhh-run-2
+
+cmds:
+  - cmd: /mayhem/decode_ipld
+    libfuzzer: true
